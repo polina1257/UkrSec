@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Мініаналіз економічної безпеки України у 2014–2026 роках: ВВП, інфляція, державний борг, загрози та стійкість.">
+  <meta name="theme-color" content="#102b3f">
+  <title>Економічна безпека України, 2014–2026</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти до основного вмісту</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Економічна безпека України — головна"><span class="brand-mark">UA</span><span>Економічна безпека<br><small>навчальний аналітичний проєкт</small></span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Відкрити меню">☰</button>
+    <nav id="site-nav" class="site-nav" aria-label="Головна навігація">
+      <a href="index.html">Про авторку</a>
+      <a class="active" href="analysis.html" aria-current="page">Аналіз України <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero hero-analysis">
+      <div class="hero-content">
+        <p class="eyebrow">Аналітичний огляд · Україна</p>
+        <h1>Економічна<br><em>безпека</em></h1>
+        <p class="hero-lead">Від наслідків агресії 2014 року до повномасштабної війни: макроекономічні потрясіння, адаптація та опора на міжнародну підтримку.</p>
+        <div class="period-pills"><span>2014—2021 · криза й відновлення</span><span>2022—2026 · повномасштабна війна</span></div>
+      </div>
+      <div class="hero-ornament chart-ornament" aria-hidden="true"><div class="chart-line"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="chart-label">динаміка<br>стійкості</span><span class="chart-year">2014 — 2026</span></div>
+      <div class="hero-index" aria-hidden="true">02 / 02</div>
+    </section>
+    <div class="page-wrap">
+      <nav class="section-nav" aria-label="На цій сторінці"><a href="#context">Контекст</a><a href="#indicators">Показники</a><a href="#risks">Ризики й стійкість</a><a href="#conclusion">Висновок</a><a href="#sources">Джерела</a></nav>
+      <section id="context" class="section context-layout">
+        <div class="section-heading"><p class="eyebrow">01 · Контекст</p><h2>Стійкість<br>під тиском</h2></div>
+        <div class="prose"><p class="intro">Економічна безпека — це здатність країни підтримувати ключові економічні функції, захищати добробут населення та зберігати потенціал розвитку, навіть коли внутрішні або зовнішні потрясіння створюють серйозні загрози.</p><p>Україна — держава Східної Європи з відкритою економікою, значним аграрним і промисловим потенціалом та тісними торговельними зв’язками з ЄС. У 2014 році російська агресія спричинила глибоку рецесію; після відновлення 2016–2021 років повномасштабне вторгнення 2022 року стало безпрецедентним шоком для виробництва, інфраструктури, торгівлі й населення.</p><p class="note"><strong>Як читати цифри:</strong> 2026 рік ще триває. Для нього наведено прогнози МВФ/НБУ, а не підсумкові річні результати. Дані різних джерел можуть відрізнятися через перегляди, визначення та охоплення територій.</p></div>
+      </section>
+      <section id="indicators" class="section indicators-section">
+        <div class="section-heading"><p class="eyebrow">02 · Макроекономічні показники</p><h2>Потрясіння<br>і відновлення</h2></div>
+        <div class="stat-grid">
+          <article class="stat-card stat-dark"><span class="stat-label">Падіння реального ВВП</span><strong>−28,8%</strong><span class="stat-foot">2022 · найглибший шок повномасштабної війни</span></article>
+          <article class="stat-card"><span class="stat-label">Зростання реального ВВП</span><strong>+5,5%</strong><span class="stat-foot">2023 · відновлення після різкого спаду</span></article>
+          <article class="stat-card"><span class="stat-label">Державний та гарантований борг</span><strong>98,4%</strong><span class="stat-foot">попередня оцінка Мінфіну до ВВП за 2025 рік</span></article>
+          <article class="stat-card stat-accent"><span class="stat-label">Потреби відбудови</span><strong>$588 млрд</strong><span class="stat-foot">оцінка Світового банку, ЄК, ООН та уряду · до 2035 р.</span></article>
+        </div>
+        <div class="chart-grid">
+          <article class="chart-card"><div class="chart-heading"><div><p class="eyebrow">Реальний ВВП</p><h3>Зростання / спад за рік</h3></div><span class="unit">%</span></div><p class="chart-description" id="gdp-desc">Річна зміна реального ВВП: глибокий спад у 2014–2015 та 2022 роках; після 2022 року — позитивне, але помірне відновлення. 2026 — прогноз МВФ WEO (жовтень 2026).</p><div class="svg-chart" id="gdp-chart" role="img" aria-labelledby="gdp-title" aria-describedby="gdp-desc"></div><div class="chart-legend"><span><i class="legend-dot"></i> факт / оцінка</span><span><i class="legend-dot forecast"></i> прогноз 2026</span></div></article>
+          <article class="chart-card"><div class="chart-heading"><div><p class="eyebrow">Споживчі ціни</p><h3>Інфляція, середньорічна</h3></div><span class="unit">%</span></div><p class="chart-description" id="cpi-desc">Інфляція за середнім індексом споживчих цін. Високі значення середини 2010-х та 2022 року; 2026 — прогноз МВФ WEO (жовтень 2026).</p><div class="svg-chart" id="cpi-chart" role="img" aria-labelledby="cpi-title" aria-describedby="cpi-desc"></div><div class="chart-legend"><span><i class="legend-dot gold"></i> факт / оцінка</span><span><i class="legend-dot forecast"></i> прогноз 2026</span></div></article>
+        </div>
+        <div class="table-wrap"><table><caption>Ключові індикатори у вибрані роки. Значення округлено; визначення й джерела можуть відрізнятися.</caption><thead><tr><th scope="col">Рік</th><th scope="col">Реальний ВВП, % р/р</th><th scope="col">Інфляція, % середньорічна</th><th scope="col">Державний борг / бюджет</th><th scope="col">Статус даних</th></tr></thead><tbody>
+          <tr><th scope="row">2014</th><td>−6,6</td><td>12,1</td><td>Борг зростає на тлі кризи</td><td>Факт · МВФ</td></tr>
+          <tr><th scope="row">2015</th><td>−9,8</td><td>48,7</td><td>Фіскальна консолідація та зовнішня підтримка</td><td>Факт · МВФ</td></tr>
+          <tr><th scope="row">2016</th><td>+2,4</td><td>13,9</td><td>Поступове відновлення</td><td>Факт · МВФ</td></tr>
+          <tr><th scope="row">2019</th><td>+3,2</td><td>7,9</td><td>Борг/ВВП — близько 50%</td><td>Факт · МВФ</td></tr>
+          <tr><th scope="row">2020</th><td>−3,8</td><td>2,7</td><td>Пандемічний шок</td><td>Факт · МВФ</td></tr>
+          <tr><th scope="row">2021</th><td>+3,4</td><td>9,4</td><td>Держборг і гарантований борг — близько 49% ВВП</td><td>Факт · МВФ / Мінфін</td></tr>
+          <tr class="war-row"><th scope="row">2022</th><td>−28,8</td><td>20,2</td><td>Різке збільшення видатків і зовнішнього фінансування</td><td>Факт · МВФ</td></tr>
+          <tr><th scope="row">2023</th><td>+5,5</td><td>12,9</td><td>Міжнародні резерви відновлюються завдяки допомозі</td><td>Факт · МВФ</td></tr>
+          <tr><th scope="row">2024</th><td>+3,2</td><td>6,5</td><td>Дефіцит бюджету залишається високим</td><td>Факт · МВФ</td></tr>
+          <tr><th scope="row">2025</th><td>+1,8</td><td>12,7</td><td>Борг/ВВП — 98,4% (попередньо)</td><td>Оцінка · МВФ / Мінфін</td></tr>
+          <tr class="forecast-row"><th scope="row">2026</th><td>+1,0 (жовтень)</td><td>8,9</td><td>Загальний держборг/ВВП — 111,8% (прогноз МВФ)</td><td>Прогноз · МВФ</td></tr>
+        </tbody></table></div>
+        <p class="table-note">Зіставляйте числа з урахуванням методу: наприклад, інфляція «середньорічна» не дорівнює інфляції «грудень до грудня». Прогноз боргу МВФ на 2026 рік і попередня оцінка Мінфіну за 2025 рік не є одним безперервним рядом.</p>
+      </section>
+      <section class="section comparison-section">
+        <div class="section-heading"><p class="eyebrow">03 · Переломні моменти</p><h2>Дві кризи.<br>Різний масштаб.</h2></div>
+        <div class="comparison-grid"><article><p class="card-kicker">2014—2021</p><h3>Втрата та стабілізація</h3><p>Анексія Криму й бойові дії на сході супроводжувалися спадом ВВП на 6,6% у 2014 та 9,8% у 2015 році. Висока інфляція 2015 року послабила купівельну спроможність. Після 2016 року економіка повернулася до зростання, а макрофінансове управління й міжнародні програми підтримали стабілізацію. У 2020 році додався пандемічний спад; 2021 року відновлення було неповним і вразливим.</p></article><article class="comparison-war"><p class="card-kicker">2022—2026</p><h3>Воєнна економіка й опірність</h3><p>Повномасштабне вторгнення спричинило падіння ВВП на 28,8% у 2022 році, масштабні руйнування та переорієнтацію торгівлі й бюджетних видатків. У 2023–2025 роках економіка зростала повільніше, зберігаючи залежність бюджету від зовнішнього фінансування. За жовтневим WEO МВФ, зростання у 2026 році прогнозується на рівні 1,0%; липнева консультація МВФ наводила діапазон 1,0–1,6%. Це прогноз, а не виміряний підсумок.</p></article></div>
+      </section>
+      <section id="risks" class="section risks-section">
+        <div class="section-heading"><p class="eyebrow">04 · Загрози та опори</p><h2>Вразливість<br>і стійкість</h2></div>
+        <div class="risk-columns"><div><h3><span class="column-marker risk-marker">!</span>Ключові загрози</h3><ul><li><strong>Фізичні руйнування.</strong> RDNA5 оцінила прямі збитки більш ніж у $195 млрд станом на кінець 2025 року; потреби відбудови — майже $588 млрд на десятиліття.</li><li><strong>Енергетична безпека.</strong> Ураження генерації, мереж і теплопостачання знижує виробничу спроможність і підвищує витрати бізнесу.</li><li><strong>Людський капітал.</strong> Міграція, мобілізація та демографічні втрати поглиблюють нестачу працівників; воєнні умови ускладнюють статистичне вимірювання.</li><li><strong>Фіскальна й зовнішня вразливість.</strong> Високі оборонні видатки збільшують дефіцит і борг, а фінансування залежить від рішень партнерів.</li><li><strong>Експорт і логістика.</strong> Ризики для портів, залізниці та інфраструктури обмежують доступ до ринків і стабільність валютних надходжень.</li></ul></div><div class="resilience-column"><h3><span class="column-marker resilience-marker">+</span>Чинники стійкості</h3><ul><li><strong>Макрофінансова адаптація.</strong> Банківська та платіжна системи продовжують працювати, НБУ використовує монетарні й валютні інструменти.</li><li><strong>Зовнішня підтримка.</strong> Гранти й пільгові кредити допомагають фінансувати критичні державні видатки та підтримувати резерви.</li><li><strong>Адаптація торгівлі.</strong> Бізнес перебудував маршрути, а альтернативні коридори підтримують експорт за умов воєнних ризиків.</li><li><strong>Відновлення та інтеграція.</strong> Інвестиції у відбудову, реформи та зближення з ЄС можуть посилити продуктивність, якщо безпекові умови дозволять.</li></ul></div></div>
+      </section>
+      <section class="section thresholds-section"><div class="section-heading"><p class="eyebrow">05 · Орієнтири</p><h2>Пороги<br>з контекстом</h2></div><div class="prose"><p>Для боргу часто згадують критерій ЄС у 60% ВВП, а для дефіциту — 3% ВВП. Це критерії Маастрихтського договору для оцінювання країн ЄС, а не універсальні межі економічної безпеки чи безпосередні цільові показники для України в умовах повномасштабної війни. Їх можна використовувати лише як довідкову точку порівняння, з поясненням контексту.</p><p>Для інфляції в Україні орієнтир НБУ — 5% у середньостроковій перспективі з допустимим діапазоном. Воєнні пропозиційні шоки, руйнування та перебої постачання впливають на траєкторію цін; порівняння не є самоціллю без урахування причин і динаміки.</p></div></section>
+      <section id="conclusion" class="conclusion-band"><p class="eyebrow">06 · Підсумок</p><h2>Стійкість є,<br><em>але запас міцності обмежений</em></h2><p>До 2022 року Україна пройшла глибоку кризу й відновлення, однак залишалася чутливою до зовнішніх шоків. Повномасштабна війна різко посилила ризики для виробництва, бюджету, енергетики та людського капіталу. Позитивне зростання після обвалу 2022 року свідчить про адаптацію, але саме по собі не означає повернення до довоєнного рівня добробуту чи безпеки. Високі потреби відбудови та боргове навантаження роблять довготривалу підтримку партнерів, відновлення інфраструктури та розвиток внутрішньої продуктивності ключовими умовами стійкості.</p></section>
+      <section id="sources" class="section sources-section"><div class="section-heading"><p class="eyebrow">07 · Джерела</p><h2>Дані й<br>методологія</h2></div><ol class="source-list"><li><a href="https://www.imf.org/en/news/articles/2026/07/20/pr26254-ukraine-imf-completes-1st-review-of-eff-arrangement-concludes-2026-aiv-consultation" target="_blank" rel="noopener">МВФ · консультація та перший перегляд програми, липень 2026</a><span>Зростання ВВП, інфляція, безробіття й макроекономічні прогнози.</span></li><li><a href="https://www.imf.org/external/datamapper/profile/UKR" target="_blank" rel="noopener">МВФ · World Economic Outlook DataMapper, жовтень 2026</a><span>Порівнювані макропоказники та прогноз боргу; 2026 — прогнозне значення.</span></li><li><a href="https://www.mof.gov.ua/uk/news/ukraines_public_debt_in_2025_average_maturity_more_than_doubled_while_average_cost_significantly_decreased-5567" target="_blank" rel="noopener">Міністерство фінансів України · державний борг у 2025 році</a><span>Борг на 31.12.2025 та попередній розрахунок співвідношення до ВВП.</span></li><li><a href="https://www.worldbank.org/uk/news/press-release/2026/02/23/updated-ukraine-recovery-and-reconstruction-needs-assessment-released" target="_blank" rel="noopener">Світовий банк, уряд України, Єврокомісія та ООН · RDNA5, лютий 2026</a><span>Збитки, руйнування та оцінка потреб відновлення станом на 31.12.2025.</span></li><li><a href="https://www.imf.org/en/news/articles/2017/04/04/pr17112-imf-executive-board-concludes-2016-article-iv-consultation-with-ukraine" target="_blank" rel="noopener">МВФ · консультація за статтею IV, 2016</a><span>Макроекономічні показники 2014–2016 років.</span></li><li><a href="https://data.worldbank.org/country/ukraine" target="_blank" rel="noopener">Світовий банк · дані по Україні</a><span>Ряди ВВП, інфляції та інші індикатори; значення можуть переглядатися.</span></li><li><a href="https://bank.gov.ua/ua/monetary/report" target="_blank" rel="noopener">Національний банк України · звіти з інфляції</a><span>Ціль з інфляції, макроекономічні прогнози й оцінка ризиків.</span></li><li><a href="https://www.ukrstat.gov.ua/druk/publicat/kat_u/2023/zb/08/zb_Ukraine_in_figures_22_.pdf" target="_blank" rel="noopener">Державна служба статистики України</a><span>Офіційна національна статистика; методологічні обмеження воєнного часу.</span></li><li><a href="https://eur-lex.europa.eu/EN/legal-content/summary/convergence-criteria-for-euro-adoption.html" target="_blank" rel="noopener">Європейська комісія · критерії конвергенції</a><span>Контекст критеріїв боргу й дефіциту ЄС.</span></li></ol><p class="method-note"><strong>Методологічне застереження.</strong> Держстат повідомляв, що від початку повномасштабного вторгнення не проводить вибіркові обстеження населення, необхідні для стандартних оцінок ринку праці. Тому воєнні оцінки зайнятості та безробіття можуть базуватися на моделях або інших методах. Територіальне охоплення, міграція, перегляди національних рахунків і різні визначення боргу обмежують пряме порівняння окремих рядів.</p></section>
+    </div>
+  </main>
+  <footer class="site-footer"><a class="footer-brand" href="index.html">Економічна безпека України</a><p>Самойленко Поліна Іванівна · 2026</p><a href="index.html">Про авторку ↑</a></footer>
+</body>
+</html>
+
+
+
